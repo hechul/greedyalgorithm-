@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
 
 public class b1138 {
     public static void main(String[] args) throws Exception{
@@ -12,7 +11,7 @@ public class b1138 {
         String[] People = br.readLine().split(" "); // 사람들의 왼쪽에 키가 큰사람이 몇명인지 입력받기
         String[] Location = new String[N];
         int C = 1;  // 값 삽입을 위한 변수 처음에는 1 갈수록 +1씩 할 예정
-        int count = 0; // 빈칸의 수를 세기 위함
+        int count; // 빈칸의 수를 세기 위함
         // N명의 사람들은 매일 아침 한 줄로 줄을 선다.
         // 오민식의 지시대로 선다.
         // 오민식은 사람들의 줄 서는 위치를 기록해놓는다.
