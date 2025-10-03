@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Objects;
-import java.util.ArrayList; // ArrayList를 사용하기 위해 추가
+
 public class b1515 {
     public static void main(String[] args)throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,7 +30,6 @@ public class b1515 {
                 // 같다면 i+1
                 // count가 10이라면 1과 0 두번 확인 100 이라면 1과 0 0 세번 확인
                 if(Objects.equals(Number[i], String.valueOf(c))){
-
                     i++;
                 }
             }
